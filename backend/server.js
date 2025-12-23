@@ -101,7 +101,7 @@ app.delete("/users/:id", (req, res) => {
 });
 
 // Start server
-const PORT = 5000;
+const port = process.env.PORT || 4000 
 app.listen(PORT, () => {
     console.log(`Server is running at PORT ${PORT}`);
 });
