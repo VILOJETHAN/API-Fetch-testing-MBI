@@ -1,4 +1,4 @@
-const API_URL = "https://api-fetch-testing-mbi.onrender.com";
+const API_URL = "https://api-fetch-testing-mbi.onrender.com/users";
 
 // Fetch and display all users
 async function fetchUsers() {

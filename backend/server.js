@@ -32,7 +32,7 @@ app.use(express.json());
 
 // Home route
 app.get("/", (req, res) => {
-    res.send("Welcome");
+    res.json({ message: "API is alive" });
 });
 
 // GET all users
